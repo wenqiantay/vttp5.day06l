@@ -47,8 +47,16 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product [id=" + id + ", name=" + name + ", description=" + description + ", category=" + category + "]";
+       return "Product [id=" + id + ", name=" + name + ", description=" + description + ", category=" + category + "]";
+
+        //csv format
+       //return id + ", " + name + ", " + description + ", " + category;
+        
     }
+    public void print() {
+        System.out.println(toString());
+    }
+    
 
    
     
